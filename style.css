@@ -23,15 +23,15 @@
 }
 .me img{
     border-radius: 50%;
-    width: 180px;
-    height: 200px;
+    width: 250px;
+    height: 260px;
     color: royalblue;
-    border: 5px solid;
+    border: 7px solid;
 }
 .me img{
     position: absolute;
-    top: 110%;
-    left: 43%;
+    top: 105%;
+    left: 41%;
 }
 h1{
     font-size: 40px;
@@ -105,7 +105,6 @@ h4{
 }
 .Submit form{
     width: 380px;
-    max-width: 100%;
     position: relative;
 }
 .Submit form input:first-child{
