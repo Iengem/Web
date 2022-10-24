@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'spotify';
+    src: url(CircularStd-Medium.otf) format('opentype');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'spotify';
+    overflow-x: hidden;
+}
+.formcont{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo{
+    margin:20px 0px 25px 45%;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 450px;
+    margin: 50px auto;
+    flex-direction: column;
+}
+hr{
+    border-color: rgb(217,218,220);
+}
+.cont h6{
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 900;
+    line-height: 1.25rem;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+.cont .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 12px 40px;
+    width: 450px;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: rgb(59,89,152);
+}
+.cont .links2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 450px;
+    gap: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.cont .links2 p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 4px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: rgb(106,106,106);
+    letter-spacing: 2px;
+}
+.cont .links4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 450px;
+    gap: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.cont .links4 p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 4px;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: rgb(106,106,106);
+    letter-spacing: 2px;
+}
+.cont .links3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 450px;
+    gap: 10px;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.cont .links3 p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 4px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+}
+#linkimg{
+    width: 25px;
+    margin: 10px;
+    height: auto;
+}
+.links2 img{
+    width: 30px;
+    height: auto;
+    margin: 6px 0px;
+}
+.cont .links p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 4px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form .bigor h1{
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: 700;
+    right: 210px;
+    position: relative;
+    left: 210px;
+    margin-bottom: 12px;
+}
+.or{
+    border-color: rgb(217,218,220);
+    transform: translateY(24px);
+    width: 200px;
+}
+.or1{
+    border-color: rgb(217,218,220);
+    transform: translateY(12px);
+    width: 200px;
+    position: relative;
+    left: 236px;
+}
+label{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.eachsec{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+    font-weight: 400;
+}
+.forgot h2 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.forgot h2 a:hover{
+    text-decoration: underline;
+}
+.eachsec1{
+    display: flex;
+    gap: 193px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(217,218,220);
+}
+.check{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.eachsec1 button{
+    background-color: rgb(30,215,96);
+    border: none;
+    padding: 15px 35px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+}
+.eachsec1 button:hover{
+    transform: scale(1.03);
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.bottom h1{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.bottom a{
+    text-decoration: none;
+    color: rgb(106,106,106);
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 40px;
+    border: 1px solid rgb(106,106,106);
+    border-radius: 50px;
+    font-weight: 700;
+}
+.bottom a:hover{
+    border-color: black;
+}
