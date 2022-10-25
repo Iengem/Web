@@ -296,7 +296,7 @@ label{
     padding: 0px 20px;
     background-color: white;
 } 
-.links4{
+.links5{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,7 +308,7 @@ label{
     border-radius: 50px;
     background-color: rgb(59,89,152);
 }
-.links4 p{
+.links5 p{
     font-family: arial;
     font-size: 16px;
     line-height: 20px;
@@ -316,7 +316,7 @@ label{
     font-weight: 700;
     color: white;
 }
-.links5{
+.links6{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,10 +328,10 @@ label{
     border-radius: 50px;
     border: 2px solid rgb(83, 83, 83);
 }
-.links5 img{
+.links6 img{
     width: 30px;
 }
-.links5 p{
+.links6 p{
     font-family: arial;
     font-size: 16px;
     line-height: 20px;
@@ -445,6 +445,12 @@ label{
     display: flex;
     gap: 10px;
     width: 450px;
+}
+#check{
+    width: 17px;
+}
+#check1{
+    width: 23px;
 }
 .checkbox label{
     font-family: Arial, Helvetica, sans-serif;
